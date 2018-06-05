@@ -8,24 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		1907CF1E20C53245006C3F9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1907CF1D20C53245006C3F9A /* AppDelegate.m */; };
-		1907CF2120C53245006C3F9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1907CF2020C53245006C3F9A /* ViewController.m */; };
 		1907CF2420C53245006C3F9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1907CF2220C53245006C3F9A /* Main.storyboard */; };
 		1907CF2620C53247006C3F9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1907CF2520C53247006C3F9A /* Assets.xcassets */; };
 		1907CF2920C53247006C3F9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1907CF2720C53247006C3F9A /* LaunchScreen.storyboard */; };
 		1907CF2C20C53247006C3F9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1907CF2B20C53247006C3F9A /* main.m */; };
+		1907CF3720C532E0006C3F9A /* shops.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1907CF3620C532E0006C3F9A /* shops.plist */; };
+		1907CF3A20C53339006C3F9A /* GSShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 1907CF3920C53339006C3F9A /* GSShop.m */; };
+		1907CF3D20C5347A006C3F9A /* GSShopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1907CF3C20C5347A006C3F9A /* GSShopView.m */; };
+		1907CF4020C536CA006C3F9A /* GSShopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1907CF3F20C536CA006C3F9A /* GSShopVC.m */; };
+		1907CF4320C62A4D006C3F9A /* GSShopView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1907CF4220C62A4D006C3F9A /* GSShopView2.m */; };
+		1907CF4520C62A62006C3F9A /* GSShopView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1907CF4420C62A62006C3F9A /* GSShopView2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1907CF1920C53245006C3F9A /* Coding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1907CF1C20C53245006C3F9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1907CF1D20C53245006C3F9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1907CF1F20C53245006C3F9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1907CF2020C53245006C3F9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1907CF2320C53245006C3F9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1907CF2520C53247006C3F9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1907CF2820C53247006C3F9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1907CF2A20C53247006C3F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1907CF2B20C53247006C3F9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1907CF3620C532E0006C3F9A /* shops.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shops.plist; sourceTree = "<group>"; };
+		1907CF3820C53339006C3F9A /* GSShop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSShop.h; sourceTree = "<group>"; };
+		1907CF3920C53339006C3F9A /* GSShop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSShop.m; sourceTree = "<group>"; };
+		1907CF3B20C5347A006C3F9A /* GSShopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSShopView.h; sourceTree = "<group>"; };
+		1907CF3C20C5347A006C3F9A /* GSShopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSShopView.m; sourceTree = "<group>"; };
+		1907CF3E20C536CA006C3F9A /* GSShopVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSShopVC.h; sourceTree = "<group>"; };
+		1907CF3F20C536CA006C3F9A /* GSShopVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSShopVC.m; sourceTree = "<group>"; };
+		1907CF4120C62A4D006C3F9A /* GSShopView2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSShopView2.h; sourceTree = "<group>"; };
+		1907CF4220C62A4D006C3F9A /* GSShopView2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSShopView2.m; sourceTree = "<group>"; };
+		1907CF4420C62A62006C3F9A /* GSShopView2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GSShopView2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +71,57 @@
 		1907CF1B20C53245006C3F9A /* Coding */ = {
 			isa = PBXGroup;
 			children = (
+				1907CF3220C53274006C3F9A /* 九宫格以及xib文件的使用 */,
 				1907CF1C20C53245006C3F9A /* AppDelegate.h */,
 				1907CF1D20C53245006C3F9A /* AppDelegate.m */,
-				1907CF1F20C53245006C3F9A /* ViewController.h */,
-				1907CF2020C53245006C3F9A /* ViewController.m */,
 				1907CF2220C53245006C3F9A /* Main.storyboard */,
 				1907CF2520C53247006C3F9A /* Assets.xcassets */,
 				1907CF2720C53247006C3F9A /* LaunchScreen.storyboard */,
+				1907CF3620C532E0006C3F9A /* shops.plist */,
 				1907CF2A20C53247006C3F9A /* Info.plist */,
 				1907CF2B20C53247006C3F9A /* main.m */,
 			);
 			path = Coding;
+			sourceTree = "<group>";
+		};
+		1907CF3220C53274006C3F9A /* 九宫格以及xib文件的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				1907CF3420C532AA006C3F9A /* Controller */,
+				1907CF3520C532AA006C3F9A /* Model */,
+				1907CF3320C532A9006C3F9A /* View */,
+			);
+			path = "九宫格以及xib文件的使用";
+			sourceTree = "<group>";
+		};
+		1907CF3320C532A9006C3F9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1907CF3B20C5347A006C3F9A /* GSShopView.h */,
+				1907CF3C20C5347A006C3F9A /* GSShopView.m */,
+				1907CF4120C62A4D006C3F9A /* GSShopView2.h */,
+				1907CF4220C62A4D006C3F9A /* GSShopView2.m */,
+				1907CF4420C62A62006C3F9A /* GSShopView2.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1907CF3420C532AA006C3F9A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1907CF3E20C536CA006C3F9A /* GSShopVC.h */,
+				1907CF3F20C536CA006C3F9A /* GSShopVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1907CF3520C532AA006C3F9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1907CF3820C53339006C3F9A /* GSShop.h */,
+				1907CF3920C53339006C3F9A /* GSShop.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +150,7 @@
 		1907CF1120C53245006C3F9A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = GS;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "管章鹏";
 				TargetAttributes = {
@@ -130,6 +184,8 @@
 			files = (
 				1907CF2920C53247006C3F9A /* LaunchScreen.storyboard in Resources */,
 				1907CF2620C53247006C3F9A /* Assets.xcassets in Resources */,
+				1907CF3720C532E0006C3F9A /* shops.plist in Resources */,
+				1907CF4520C62A62006C3F9A /* GSShopView2.xib in Resources */,
 				1907CF2420C53245006C3F9A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,9 +197,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1907CF2120C53245006C3F9A /* ViewController.m in Sources */,
 				1907CF2C20C53247006C3F9A /* main.m in Sources */,
 				1907CF1E20C53245006C3F9A /* AppDelegate.m in Sources */,
+				1907CF4020C536CA006C3F9A /* GSShopVC.m in Sources */,
+				1907CF4320C62A4D006C3F9A /* GSShopView2.m in Sources */,
+				1907CF3D20C5347A006C3F9A /* GSShopView.m in Sources */,
+				1907CF3A20C53339006C3F9A /* GSShop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

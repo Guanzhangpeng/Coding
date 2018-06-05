@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GSShopView.h
 //  Coding
 //
 //  Created by 管章鹏 on 2018/6/4.
@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@class GSShop;
 
-@interface ViewController : UIViewController
+@interface GSShopView : UIView
 
+@property (nonatomic, strong) GSShop *shop;
 
 @end
-
